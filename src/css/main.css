@@ -66,7 +66,7 @@
   /* Quotes and transclusions */
   --list-padding:2em;
   /* List padding */
-  --list-spacing:0.075em;
+  --list-spacing:0.25em;
   /* Space between list items */
   --radius-s:2px;
   --radius-m:5px;
@@ -987,6 +987,7 @@ em,
 .markdown-embed-title {
   letter-spacing: -0.02em;
   text-align: left;
+  text-orientation: sideways;
   font-size: var(--title-size);
   font-weight: var(--title-weight); }
 
@@ -1737,7 +1738,7 @@ ol > li {
   tab-size: var(--list-padding); }
 
 body:not(.is-mobile) .mod-cm6 .HyperMD-list-line.cm-line {
-  margin-left: 0.75em !important; }
+  margin-left: 1.5em !important; }
 
 /* Space between list items */
 .markdown-preview-view ol > li,
@@ -1760,7 +1761,7 @@ body:not(.is-mobile) .mod-cm6 .HyperMD-list-line.cm-line {
   color: var(--text-faint); }
 
 body:not(.is-mobile) .markdown-source-view.mod-cm6 .list-bullet:after {
-  left: -5px; }
+  left: -10px; }
 
 /* Modals */
 .progress-bar-message {
